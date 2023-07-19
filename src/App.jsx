@@ -20,6 +20,7 @@ function App() {
       <Route path='/about' element={<AboutView/>}></Route>
       <Route path="/skills" element={<SkillsView/>}></Route>
       <Route path="/contact" element={<ContactView/>}></Route>
+      <Route path="/nicorgi" element={<HomeView/>}></Route>
     </Routes>
     <Ellipse1></Ellipse1>
     </>
