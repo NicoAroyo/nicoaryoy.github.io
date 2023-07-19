@@ -1,0 +1,18 @@
+.container{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    height: 15vh;
+}
+
+
+.item{
+background: url("../../assets/Group1.png") no-repeat;
+background-size: cover;
+position: absolute;
+bottom: 0;
+right: 0;
+height: 250px;
+width: 250px;
+z-index: -1;
+}

@@ -1,0 +1,21 @@
+.VerticalTimeline{
+    color: #3E108A;
+}
+
+.vertical-timeline-element-date {
+    color: #3E108A; /* Replace with your desired color */
+  }
+
+  .vertical-timeline-element-date::after {
+    color: #3E108A;
+  }
+
+ .center-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+  .vt{
+    margin-top: 10px;
+  }

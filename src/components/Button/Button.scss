@@ -1,0 +1,30 @@
+.btn {
+    padding: 1rem 2rem;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5.5%;
+    font-weight: 700;
+    background:#FF337E;
+    color: #3E108A;
+    border-radius: .5rem;
+    border-bottom: 4px solid #3E108A;
+    border-right: 4px solid #3E108A;
+    border-top: 3px solid #3E108A;
+    border-left: 2px solid #3E108A;
+    transition-duration: 1s;
+    transition-property: border-top, 
+       border-left, 
+       border-bottom,
+       border-right,
+       box-shadow;
+   }
+   
+   .btn:hover {
+    border-left: 3px solid #3E108A;
+    border-top: 3px solid #3E108A;
+    border-left: 3px solid #3E108A;
+    border-bottom: 3px solid #3E108A;
+    border-right: 3px solid #3E108A;
+    box-shadow: #3E108A 2px 2px, #3E108A 5px 5px, #3E108A 10px 10px;
+   }
