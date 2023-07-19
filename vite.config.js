@@ -4,12 +4,8 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: "/",
+    base: "/nicorgi",
   };
-
-  if (command !== "serve") {
-    config.base = "/nicorgi/";
-  }
 
   return config;
 });
