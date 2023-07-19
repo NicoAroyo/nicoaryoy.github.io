@@ -25,19 +25,19 @@ const SkillsView = () => {
                 <SmallText>React, React-native, Redux, HTML, Css/Scss, Vite, WPF. </SmallText>
             </div>
                <div>
-                <Carousel className='carousel'>
+                <Carousel className='carousel' >
                     <div>
                         <MediumText>Testy Project</MediumText>
                         <SmallText>Made with Node + React
                         </SmallText>
-                        <a>
+                        <a href='https://github.com/NicoAroyo/TestyFront'>
                         <Button>Frontend
                             <br></br>
                             <FaGithub/>
                         </Button>
                         </a>
                       
-                        <a>
+                        <a href='https://github.com/NicoAroyo/TestyBack'>
                          <Button>Backend
                             <br></br>
                             <FaGithub/>
